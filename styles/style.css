@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #151515;
+}
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    background: url('../images/Header.png') no-repeat center / cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header-nav{
+    background: #282828;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    margin-left: 30px;
+}
+.nav-link{
+    display: inline-block;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-family: 'MB';
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+.logo{
+    margin: 6px 0;
+}
+.icon{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.icon:nth-of-type(1){
+    margin-right: 25px;
+    
+}
+.header-info{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-tytle{
+    color: #FFFFFF;
+    font-size: 100px;
+    line-height: 75px;
+    font-family: 'PR';
+}
+.header-link{
+    display: flex;
+    justify-content: space-between;
+    margin: 38px auto 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    color: #171718;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'MM';
+    padding: 13px;
+
+
+}
+.header-tytle-link{
+    font-size: 15px;
+    color: #171718;
+}
+.header-icon :nth-of-type(1){
+   margin-left: 10px; 
+}
+
+/* main start */
+.main-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-desck{
+    width: 538px;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: 'MM';
+    margin-right: 30px;
+}
+.img-1{
+    margin-top: 30px;
+    height: 335px;
+}
+.img-2{
+    margin-top: 50px;
+    margin-right: 87px;
+}
+.main-desck-1{
+    width: 540px;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: 'MM';
+    margin-right: 30px;
+
+}
+.main-desck-right{
+    width: 333px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'MB';
+    text-align: right;
+}
+.main-desck-left{
+    width: 333px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'MB';
+    text-align: left;
+
+}
+.main-img{
+    max-width: 268px;
+    width: 100%;
+    height: 375px;
+    margin: 0 14px;
+}
+.box{
+    margin: 50px 87px 0;
+    display: flex;
+    align-items: center;
+    
+   
+}
+.box::after{
+    content: '';
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    display: block;
+   
+    
+    
+}
+.box::before{
+    content:'' ;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    display: block;
+    
+
+}
+.main-shop{
+    display: flex;
+    flex-direction: column;
+    max-width: 255px;
+    width: 100%;
+    align-items: center;
+    padding: 15px 47px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.shop-tytle{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'MB';
+    margin-bottom: 10px;
+}
+.shop-desck{
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'MR';
+    margin-top: 10px;
+
+
+}
+.button{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #151515;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'MB';
+    padding: 7px 57px;
+    border: none;
+    margin-top: 20px;
+
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 79px;
+    margin-bottom: 55px;
+}
+/* main end */
+.footer{
+    background: #282828;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    
+}
+.footer-card{
+    display: flex;
+    align-items: center;
+}
+.footer-link{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'MB';
+    margin-right: 30px;
+}
+.footer-logo{
+    margin: 81px 0;
+}
+.card:nth-of-type(1){
+    margin-right: 29px;
+}
+.card-link{
+   color: #FFFFFF; 
+   font-size: 55px;
+}
